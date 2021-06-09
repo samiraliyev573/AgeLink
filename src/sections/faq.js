@@ -1,77 +1,42 @@
-import React from 'react';
-import { Box, Container, Flex, Text, Heading } from 'theme-ui';
-import { Link } from 'components/link';
-import BlockTitle from 'components/block-title';
-import Accordion from 'components/accordion/accordion';
+import React from "react";
+import { Box, Container, Flex, Text, Heading } from "theme-ui";
+import { Link } from "components/link";
+import BlockTitle from "components/block-title";
+import Accordion from "components/accordion/accordion";
 
 const accordionData = [
   {
     isExpanded: false,
-    title: 'How much does it cost to be a credit card merchant?',
+    title: "Is it free to earn Leaf Coin? ",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Yes 100%. Anyone with a mobile phone and passion to grow plants will be
+        able to earn Leaf Coin. You will be doing certain tasks in the app and
+        be rewarded with our cryptocurrency. People who buy flowers from us will
+        get free pro subscription which will make their mobile experience ad
+        free.
       </div>
     ),
   },
   {
     isExpanded: true,
-    title: 'How can I open a merchant account?',
+    title: "How can I purchase MyBlossom flowers?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Our team is currently working on the kickstarter project that will be
+        launched in the upcoming months. You will be able to back our project
+        once the project launches. Join our newsletter if you would like to get
+        weekly updates.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: 'How long does the application take?',
+    title: "Can I become the part of the team?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
-      </div>
-    ),
-  },
-  {
-    isExpanded: false,
-    title: 'Can I make payment outside of Hong Kong?',
-    contents: (
-      <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
-      </div>
-    ),
-  },
-  {
-    isExpanded: false,
-    title: 'How do I get the payment complete?',
-    contents: (
-      <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        We have jobs open to many positions. Please send your updated resume to
+        ....@gmail.com
       </div>
     ),
   },
@@ -111,52 +76,52 @@ export default FAQ;
 
 const styles = {
   flex: {
-    flexWrap: 'wrap',
-    flexDirection: ['column', null, null, null, null, 'row-reverse'],
-    pb: ['70px', null, null, null, '90px', null, '130px'],
+    flexWrap: "wrap",
+    flexDirection: ["column", null, null, null, null, "row-reverse"],
+    pb: ["70px", null, null, null, "90px", null, "130px"],
   },
   content: {
-    flex: ['0 0 100%', null, null, null, '0 0 33.333%'],
-    maxWidth: ['100%', null, null, '450px', '100%'],
-    mx: ['auto', null, null, null, '0'],
-    mb: ['0px', null, null, null, '0'],
-    textAlign: ['center', null, null, null, null, 'left'],
-    mt: ['40px', null, null, null, null, '0'],
+    flex: ["0 0 100%", null, null, null, "0 0 33.333%"],
+    maxWidth: ["100%", null, null, "450px", "100%"],
+    mx: ["auto", null, null, null, "0"],
+    mb: ["0px", null, null, null, "0"],
+    textAlign: ["center", null, null, null, null, "left"],
+    mt: ["40px", null, null, null, null, "0"],
     h3: {
-      fontSize: ['23px', null, null, null, '24px'],
+      fontSize: ["23px", null, null, null, "24px"],
       lineHeight: [1.5, null, null, null, 1.67],
-      color: 'black',
+      color: "black",
       fontWeight: 700,
-      letterSpacing: '-1.5px',
-      mt: '-5px',
-      pr: ['0', null, null, null, null, '30px'],
+      letterSpacing: "-1.5px",
+      mt: "-5px",
+      pr: ["0", null, null, null, null, "30px"],
     },
     p: {
-      fontSize: '16px',
+      fontSize: "16px",
       lineHeight: 1.87,
-      color: '#343D48',
+      color: "#343D48",
       opacity: 0.7,
-      mt: '10px',
-      pr: ['0', null, null, null, null, '80px'],
+      mt: "10px",
+      pr: ["0", null, null, null, null, "80px"],
     },
   },
   askButton: {
-    display: 'inline-block',
-    verticalAlign: 'middle',
-    backgroundColor: '#02073E',
-    color: '#fff',
-    borderRadius: '5px',
-    fontSize: '16px',
+    display: "inline-block",
+    verticalAlign: "middle",
+    backgroundColor: "#02073E",
+    color: "#fff",
+    borderRadius: "5px",
+    fontSize: "16px",
     fontWeight: 700,
-    p: '6.5px 19px',
-    letterSpacing: '-0.16px',
-    mt: '25px',
-    transition: 'all 500ms ease',
-    '&:hover': {
+    p: "6.5px 19px",
+    letterSpacing: "-0.16px",
+    mt: "25px",
+    transition: "all 500ms ease",
+    "&:hover": {
       opacity: 0.8,
     },
   },
   faqWrapper: {
-    flex: ['0 0 100%', null, null, null, '0 0 66.666%'],
+    flex: ["0 0 100%", null, null, null, "0 0 66.666%"],
   },
 };
