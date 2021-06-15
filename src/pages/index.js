@@ -14,6 +14,7 @@ import Package from "../sections/package";
 import TeamSection from "../sections/team-section";
 import TestimonialCard from "../sections/testimonial";
 import Blogs from "sections/blogs";
+import FlowerFeature from "sections/flower-feature";
 import FAQ from "sections/faq";
 import Subscribe from "sections/subscribe";
 
@@ -24,6 +25,7 @@ export default function IndexPage() {
         <SEO title="MyBlossom" />
         <Banner />
         <KeyFeature />
+        <FlowerFeature />
         <ServiceSection />
         <Feature />
         <CoreFeature />
