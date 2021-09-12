@@ -13,44 +13,34 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Excellent Community',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
+      'Agelink as an initiative has done so much more than allow access to generational wisdom. It has allowed me to meet with so many beautiful people. Connecting with seniors has been very insightful, and it is always rewarding to see how much they cherish spending time with you. I feel much more rooted in the community and learn so much with every interaction. I am grateful to Agelink for providing opportunities to have these meaningful conversations, and I hope more and more people can benefit from its values.',
+    
+    name: 'Joy Shukla',
+    designation: '4th year Computer Science student at UBC Okanagan',
+    review: 5,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'University Experience',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+      'Age-Link greatly nurtures my university experience at UBCO. Its events brought such a fresh atmosphere for both students and elders. It was a different way for students to enrich their community involvement and also a monthly gathering that the elder community would look forward to with excitement. From the organizers, to guests and to the attendees; everyone had a smile from ear to ear. Always ready to engage in any and every type of conversation. My first Age-Link event was in 2015 and my last in 2020. 5 years where I met some incredible people and made great memories. 5 years I would not change for anything. Thanks Age-Link UBCO',
+    name: 'Dennis Genaro Luna',
+    designation: 'UBC Okanagan Alumnus',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Amazing Team and Organizers',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'My family and I really enjoyed the Age-Link events. We are so glad to be a part of an inclusive community and our sincere thanks to the organizers and volunteers. It is important to understand the importance of sharing our laughter, wisdom, and cherished moments with others regardless of their age, gender, and race. Thank you so much and look forward to joining the future events in the post-pandemic world.',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Irene Chen and family',
+    designation: 'Age-Link member ',
     review: 5,
   },
-  {
-    id: 4,
-    title: 'Modern look & trending design',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
-  },
+  
 ];
 
 const responsive = {
@@ -119,9 +109,7 @@ export default function TestimonialCard() {
                 </Heading>
                 <Text sx={styles.description}> {item.description}</Text>
                 <div className="card-footer">
-                  <div className="image">
-                    <Image  src={item.avatar} alt="Client Image"/>
-                  </div>
+                  
                   <div className="reviewer-info">
                     <Heading as ="h4" sx={styles.heading}>
                       {item.name}

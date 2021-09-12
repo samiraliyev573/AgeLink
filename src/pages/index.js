@@ -29,13 +29,11 @@ export default function IndexPage() {
         <ServiceSection />
         <Feature />
         <CoreFeature />
-        <WorkFlow />
-        <Package />
         <TeamSection />
         <TeamSectionStaff />
         <TestimonialCard />
-        {/* <Blogs />  */}
-        <FAQ />
+       
+       
         <Subscribe />
       </Layout>
     </ThemeProvider>
