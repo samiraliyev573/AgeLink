@@ -13,10 +13,10 @@ import WorkFlow from "../sections/workflow";
 import Package from "../sections/package";
 import TeamSection from "../sections/team-section";
 import TestimonialCard from "../sections/testimonial";
-import Blogs from "sections/blogs";
 import FlowerFeature from "sections/flower-feature";
 import FAQ from "sections/faq";
 import Subscribe from "sections/subscribe";
+import TeamSectionStaff from "sections/team-section-staff";
 
 export default function IndexPage() {
   return (
@@ -32,6 +32,7 @@ export default function IndexPage() {
         <WorkFlow />
         <Package />
         <TeamSection />
+        <TeamSectionStaff />
         <TestimonialCard />
         {/* <Blogs />  */}
         <FAQ />
