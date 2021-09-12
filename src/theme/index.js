@@ -361,14 +361,7 @@ export default {
       lineHeight: 'body',
       fontWeight: 'body',
       fontSmoothing: 'antialiased',
-      // Modal Global Style
-      '.modal-video-close-btn': {
-        cursor: 'pointer',
-      },
-      '.modal-video-movie-wrap': {
-        margin: 6,
-        width: 'auto',
-      },
+     
     },
     // Divider styles
     hr: {
