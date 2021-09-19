@@ -1,63 +1,22 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Container, Grid } from "theme-ui";
-import SectionHeader from "../components/section-header";
-import FeatureCardColumn from "components/feature-card-column.js";
-import Performance from "assets/key-feature/performance.svg";
-import Partnership from "assets/key-feature/partnership.svg";
-import Subscription from "assets/key-feature/subscription.svg";
-import Support from "assets/key-feature/support.svg";
+import { Container } from "theme-ui";
 
-const data = [
-  {
-    id: 1,
-    imgSrc: Performance,
-    altText: "Fast Delivery",
-    title: "Fast Delivery",
-    text: "Let’s just get this out of the way - sometimes it is hard to get your favorite plant or flower delivered to your door. Thats were we come in",
-  },
-  {
-    id: 2,
-    imgSrc: Partnership,
-    altText: "Free and Pro Subscription",
-    title: "Free and Pro Subscription",
-    text: "We believe it’s important for everyone to have access to software – especially when it comes to helping the environment and raising beautiful flowers",
-  },
-  {
-    id: 3,
-    imgSrc: Subscription,
-    altText: "Crypt Currenty",
-    title: "Crypto Curreny",
-    text: "We make growing money on trees a real deal.",
-  },
-  {
-    id: 4,
-    imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
-    text: "Our mobile app will help you throughout your journey and answer all of your questions. We will also provide you with 24/7 customer support.",
-  },
-];
+import TextFeature from "components/text-feature";
+
+
 
 export default function KeyFeature() {
   return (
     <section sx={{ variant: "section.keyFeature" }} id="feature">
       <Container>
-        <SectionHeader
-          slogan="Whats the function"
-          title="Meet the future of our product"
-        />
-        <Grid sx={styles.grid}>
-          {data.map((item) => (
-            <FeatureCardColumn
-              key={item.id}
-              src={item.imgSrc}
-              alt={item.altText}
-              title={item.title}
-              text={item.text}
-            />
-          ))}
-        </Grid>
+        
+        <TextFeature  title = "Whats the function" subTitle="AGE-LINK SOCIETY DESCRIPTION" description="Age-Link society was incorporated as a non-profit organization under the Societies Act of British Columbia on the 25th of May, 2021. The Non-Profit will continue the student association’s current mission of bridging the gap between the youth and the elderly at the University and the local community.
+
+With the growing sense of isolation amongst seniors in Canada, Age-Link society is driven by its mission to establish chapters (Age-Link student associations) across Canadian universities, seniors homes, and secondary schools. Being incorporated allows Age-Link Society to  broaden its mission and presence to other University campuses. The Non-Profit will hold networking and community oriented events regularly that will be open to students and elders. These events will be designed to benefit both the ages. For instance, hosting a ‘Chat and Chill’ event designed to provide an opportunity for students to learn about the elders' life experiences and in turn the elders have the opportunity to meet students from different cultural backgrounds. The main aim is to create long lasting reciprocal relationships between the different ages.
+
+At Age-Link, the different age groups do not gather to volunteer but to network and socialize. This two-sided relationship bears reciprocal benefits to the age groups. By looking past the prenotions, prejudgements and stereotypes about seniors, Age-Link society delves deeper to establish meaningful connections. 
+"/>
       </Container>
     </section>
   );

@@ -15,6 +15,7 @@ import TestimonialCard from "../sections/testimonial";
 import EventsFeature from "sections/events-feature";
 import Subscribe from "sections/subscribe";
 import TeamSectionStaff from "sections/team-section-staff";
+import HistoryFeature from "sections/history-feature";
 
 export default function IndexPage() {
   return (
@@ -24,8 +25,9 @@ export default function IndexPage() {
         <Banner />
         <KeyFeature />
         <EventsFeature />
+        <HistoryFeature />
         <ServiceSection />
-        <Feature />
+        
         <CoreFeature />
         <TeamSection />
         <TeamSectionStaff />
