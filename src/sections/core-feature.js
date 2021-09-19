@@ -2,14 +2,13 @@
 import { jsx, Container, Box, Image } from "theme-ui";
 import TextFeature from "components/text-feature";
 
-import FeatureThumb from "assets/core-feature.png";
+import FeatureThumb from "assets/open-chapter.jpg";
 import shapePattern from "assets/shape-pattern2.png";
 
 const data = {
-  subTitle: "Introducing Leaf Coin",
-  title: "Eco friendly crypto currency that supports proof of stake",
+  subTitle: "OPEN A CHAPTER AT YOUR UNIVERSITY",
   description:
-    "Users of our mobile app will earn Leaf Coin as a reward every month by completing certain tasks in the app.",
+    "To pursue its mission of bridging the generational gap amongst students and seniors across Canadian universities, the non-profit will offer assistance to interested student executives from various universities. These student executives from different Canadian universities and colleges will solicit their respective student unions to open an Age-Link student association at their respective campuses. Age-Link society will function as headquarters that the student associations turn to for counsel at all times. Student executives will be guided by the outreach coordinator at the non-profit to make informed decisions to successfully establish an age-link chapter at their institution. ",
   btnName: "Get Started",
   btnURL: "#",
 };
@@ -21,7 +20,7 @@ export default function CoreFeature() {
         <Box sx={styles.contentBox}>
           <TextFeature
             subTitle={data.subTitle}
-            title={data.title}
+            
             description={data.description}
             btnName={data.btnName}
             btnURL={data.btnURL}

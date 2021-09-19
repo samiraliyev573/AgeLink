@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'MyBlossom Landing Page',
+  description = 'Age Link Landing Page',
   author = 'Samir Aliyev',
   meta,
-  title = 'MyBlossom',
+  title = 'Age Link',
 }) {
   const metaData = [
     {
