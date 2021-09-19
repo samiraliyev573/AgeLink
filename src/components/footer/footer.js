@@ -10,7 +10,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
           <Link path="/">
-            <Image src={FooterLogo} alt="Logo" />
+            <Image src={FooterLogo} alt="Logo" width="100" height="100" />
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
@@ -25,7 +25,7 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear} MyBlossom
+            Copyright by {new Date().getFullYear} Age Link
           </Text>
         </Box>
       </Container>
