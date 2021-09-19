@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
-import BannerImg from "assets/banner-thumb.png";
+import BannerImg from "assets/banner-thumb.jpg";
 import ShapeLeft from "assets/shape-left.png";
 import ShapeRight from "assets/shape-right.png";
 
@@ -11,11 +11,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Flowers and Plants
+          We Grow Together
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We offer top quality plants and help you grow it from seed to bloom
-            using machine learning and our mobile application.
+          Through its mission statement, ‘We Grow Together’, Age-Link UBCO thus tackles the prevailing loneliness faced by students and elders by inculcating a sense of unity by bridging the age gap in order to build a healthier community together
           </Text>
           <Button variant="primaty" sx={{ cursor: "pointer" }}>
             {" "}

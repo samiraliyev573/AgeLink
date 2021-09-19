@@ -6,15 +6,15 @@ import FeatureThumb from "assets/flower-feature.png";
 import shapePattern from "assets/shape-pattern2.png";
 
 const data = {
-  subTitle: "Introducing Leaf Coin",
-  title: "Eco friendly crypto currency that supports proof of stake",
+  subTitle: "EVENTS HELD IN THE PAST  ",
+  title: "Gala nights, Chat and chill and Online",
   description:
-    "Users of our mobile app will earn Leaf Coin as a reward every month by completing certain tasks in the app.",
+    "Age-Link student association has held several heart warming events in the past for its members. The organization will continue to offer such networking events. Due to the existing COVID-19 pandemic, a majority of the events will be offered online to account for the various restrictions that are put in place by the government. Once the restrictions relax, the organization will transition back to offering in-person events in compliance with the respective university and seniors society’s COVID-19 rules. These networking events will expand to incorporate potential summer camp packages for seniors and students.",
   btnName: "Get Started",
   btnURL: "#",
 };
 
-export default function FlowerFeature() {
+export default function EventsFeature() {
   return (
     <section sx={{ variant: "section.coreFeature" }}>
       <Container sx={styles.containerBox}>

@@ -14,7 +14,7 @@ export default function TextFeature({
         <Text as ="p" sx={styles.wrapper.subTitle}>
           {subTitle}
         </Text>
-        <Heading as ="h2" sx={styles.wrapper.title}>
+        <Heading as ="p" sx={styles.wrapper.title}>
           {title}
         </Heading>
         
@@ -24,13 +24,7 @@ export default function TextFeature({
           {description}  
         </Text>
       )}
-      {btnName && (
-        <Link href={btnURL}>
-          <Button variant="primary" aria-label={btnName}>
-          {btnName}
-          </Button>
-        </Link>
-      )}
+      
     </Box>
   );
 }
@@ -60,7 +54,7 @@ const styles = {
       letterSpacing: ['1.5px', null, '2px'],
     },
     title: {
-      fontSize: ['24px', null, '28px', '30px', '36px', '42px', null, '48px'],
+      fontSize: ['15px', null, '28px', '30px', '36px', '42px', null, '48px'],
       color: 'heading_secondary',
       lineHeight: [1.3, null, null, null, 1.2],
       fontWeight: '700',
@@ -69,7 +63,7 @@ const styles = {
     },
   },
   description: {
-    fontSize: ['15px', 2, null, null, null, '17px', null, 3],
+    fontSize: ['14px', 2, null, null, null, '17px', null, 3],
     fontWeight: 400,
     lineHeight: [1.85, null, null, 2, null, '2.2'],
     color: 'text_secondary',

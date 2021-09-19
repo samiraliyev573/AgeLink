@@ -13,8 +13,7 @@ import WorkFlow from "../sections/workflow";
 import Package from "../sections/package";
 import TeamSection from "../sections/team-section";
 import TestimonialCard from "../sections/testimonial";
-import FlowerFeature from "sections/flower-feature";
-import FAQ from "sections/faq";
+import EventsFeature from "sections/flower-feature";
 import Subscribe from "sections/subscribe";
 import TeamSectionStaff from "sections/team-section-staff";
 
@@ -25,7 +24,7 @@ export default function IndexPage() {
         <SEO title="MyBlossom" />
         <Banner />
         <KeyFeature />
-        <FlowerFeature />
+        <EventsFeature />
         <ServiceSection />
         <Feature />
         <CoreFeature />

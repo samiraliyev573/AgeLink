@@ -21,24 +21,10 @@ import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
 
 const data = {
-  subTitle: "our services",
-  title: "Machine Learning at its finest",
-  features: [
-    {
-      id: 1,
-      imgSrc: Smart,
-      altText: "AI Support",
-      title: "AI Support",
-      text: "Our AI will help you throughout your journey to grow your plant/flower. App will track your progress and advise you along your journey",
-    },
-    {
-      id: 2,
-      imgSrc: Secure,
-      altText: "NFT Digital Art",
-      title: "NFT Digital Art",
-      text: "We will also be producing digital art for NFT Lovers. Holders of this NFT will get a tree planted under their name every week.",
-    },
-  ],
+  subTitle: "What is in it for you",
+  title: "Part of something great",
+  description: "You will be part of an impactful journey to address the concern of the growing social isolation faced by seniors and students who are away from their elders.  You will be one of the first few members to have ignited this impactful journey by being a part of the pilot project at your esteemed university.   ",
+ 
 };
 
 export default function ServiceSection() {
@@ -66,22 +52,8 @@ export default function ServiceSection() {
           </Box>
         </Box>
         <Box sx={styles.contentBox}>
-          <TextFeature subTitle={data.subTitle} title={data.title} />
-          <Grid sx={styles.grid}>
-            {data.features.map((feature) => (
-              <Box sx={styles.card} key={feature.id}>
-                <Image
-                  src={feature.imgSrc}
-                  alt={feature.altText}
-                  sx={styles.icon}
-                />
-                <Box sx={styles.wrapper}>
-                  <Heading sx={styles.wrapper.title}>{feature.title}</Heading>
-                  <Text sx={styles.wrapper.subTitle}>{feature.text}</Text>
-                </Box>
-              </Box>
-            ))}
-          </Grid>
+          <TextFeature subTitle={data.subTitle} title={data.title} description={data.description} />
+          
         </Box>
       </Container>
       

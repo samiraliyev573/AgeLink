@@ -14,6 +14,7 @@ import Member6 from "assets/team/member-6.jpg";
 import Member7 from "assets/team/member-7.jpg";
 import Member8 from "assets/team/member-8.jpg";
 import Member9 from "assets/team/member-9.jpg";
+import Member10 from "assets/team/member-10.jpg";
 
 const data = [
   {
@@ -247,6 +248,34 @@ const data = [
     title: "Daniel Kandie",
     designation: "University of oxford",
     experience: "M.Sc Student",
+    socialProfile: [
+      {
+        id: 1,
+        name: "facebook",
+        path: "#",
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: "twitter",
+        path: "#",
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: "instagram",
+        path: "#",
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 10,
+    imgSrc: Member10,
+    altText: "Ian Cull",
+    title: "Ian Cull",
+    designation: "University of British Columbia",
+    experience: "Ex Deputy Vice Chancellor",
     socialProfile: [
       {
         id: 1,
