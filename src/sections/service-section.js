@@ -13,12 +13,9 @@ import {
 import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
 import { IoIosPlay } from "react-icons/io";
-
-import ServiceThumb from "assets/service-thumb.png";
+import ModalVideo from 'react-modal-video';
 import shapePattern from "assets/shape-pattern1.png";
 
-import Smart from "assets/services/smart.svg";
-import Secure from "assets/services/secure.svg";
 
 const data = {
   subTitle: "What is in it for you",
@@ -56,7 +53,12 @@ export default function ServiceSection() {
           
         </Box>
       </Container>
-      
+      <ModalVideo
+        channel="youtube"
+        isOpen={videoOpen}
+        videoId="ZNA9rmDsYVE"
+        onClose={() => setVideoOpen(false)}
+      />
     </section>
   );
 }
