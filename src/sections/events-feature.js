@@ -16,7 +16,7 @@ const data = {
 
 export default function EventsFeature() {
   return (
-    <section sx={{ variant: "section.coreFeature" }}>
+    <section id = "events" sx={{ variant: "section.coreFeature" }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.contentBox}>
           <TextFeature

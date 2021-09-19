@@ -3,7 +3,7 @@ import { Button, Input, Box, Container, Heading, Text } from 'theme-ui';
 
 const Subscribe = () => {
   return (
-    <Box as="section" sx={styles.subscribe}>
+    <Box as="section" id="subscribe" sx={styles.subscribe}>
       <Container>
         <Heading as="h3">Subscribe to get notified about event</Heading>
         <Text as="p">

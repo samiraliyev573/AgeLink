@@ -301,7 +301,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section>
+    <section id="team">
       <Container>
         <SectionHeader 
           slogan="Board of Directors"
