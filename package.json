@@ -1,10 +1,11 @@
 {
-  "name": "landing-page",
+  "name": "agelink-page",
   "version": "0.0.1",
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
     "start": "next start"
   },
   "dependencies": {
