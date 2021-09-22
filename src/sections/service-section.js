@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-/** @jsx jsx */
-import { jsx, Container, Box, Button, Image } from "theme-ui";
-import { keyframes } from "@emotion/react";
+import { Container, Box, Button, Image } from "theme-ui";
 import TextFeature from "components/text-feature";
 import { IoIosPlay } from "react-icons/io";
 import ModalVideo from "react-modal-video";
@@ -59,18 +57,6 @@ export default function ServiceSection() {
   );
 }
 
-const playPluse = keyframes`
-  from {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-    opacity: 1;
-  }
-
-  to {
-	transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-    opacity: 0;
-  }
-`;
-
 const styles = {
   coreFeature: {
     py: [0, null, null, 2, null, 7],
@@ -123,7 +109,7 @@ const styles = {
       height: ["60px", null, "80px", null, "100px"],
       backgroundColor: "primary",
       borderRadius: "50%",
-      animation: `${playPluse} 1.5s ease-out infinite`,
+      animation: `1.5s ease-out infinite`,
       opacity: 0.5,
     },
     "> span": {

@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx, Container, Flex, Button } from "theme-ui";
-import { keyframes } from "@emotion/react";
 import { Link } from "react-scroll";
 import Logo from "components/logo";
 import LogoDark from "assets/logo.png";
@@ -41,19 +40,6 @@ export default function Header({ className }) {
   );
 }
 
-const positionAnim = keyframes`
-  from {
-    position: fixed;
-    opacity: 1;
-  }
-
-  to {
-    position: absolute;
-    opacity: 1;
-    transition: all 0.4s ease;
-  }
-`;
-
 const styles = {
   header: {
     color: "text",
@@ -65,7 +51,7 @@ const styles = {
     left: 0,
     backgroundColor: "transparent",
     transition: "all 0.4s ease",
-    animation: `${positionAnim} 0.4s ease`,
+    animation: `0.4s ease`,
     ".donate__btn": {
       flexShrink: 0,
       mr: [15, 20, null, null, 0],
