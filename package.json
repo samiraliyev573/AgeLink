@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start",
-    "postbuild": "next-sitemap"
+    "start": "next start"
   },
   "dependencies": {
     "@emotion/react": "^11.4.1",
@@ -36,7 +35,6 @@
   "devDependencies": {
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
-    "next-sitemap": "^1.2.4"
+    "imagemin-svgo": "^8.0.0"
   }
 }
