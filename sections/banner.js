@@ -14,7 +14,7 @@ export default function Banner() {
           We Grow Together
           </Heading>
           <Text as="p" variant="heroSecondary">
-          Through its mission statement, ‘We Grow Together’, Age-Link UBCO thus tackles the prevailing loneliness faced by students and elders by inculcating a sense of unity by bridging the age gap in order to build a healthier community together
+            Through its mission statement, ‘We Grow Together’, Age-Link Society tackles the prevailing loneliness faced by students and elders by inculcating a sense of unity by bridging the age gap in order to build a healthier community together
           </Text>
           <Button variant="primaty" sx={{ cursor: "pointer" }}>
             {" "}
