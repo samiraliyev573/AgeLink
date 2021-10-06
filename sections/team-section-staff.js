@@ -1,15 +1,14 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui";
-import { Container, Grid } from "theme-ui";
+import { jsx, Container, Grid } from "theme-ui";
 import SectionHeader from "components/section-header";
 import TeamCard from "components/team-card";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-
+import { FaLinkedin } from "react-icons/fa";
 
 import Staff1 from "assets/team/staff-1.jpg";
 import Staff2 from "assets/team/staff-2.jpg";
 import Staff3 from "assets/team/staff-3.jpeg";
 import Staff4 from "assets/team/staff-4.jpg";
+import Staff5 from "assets/team/staff-5.jpeg";
 
 const data = [
   {
@@ -18,83 +17,40 @@ const data = [
     altText: "Patience Okuku Spinoza",
     title: "Patience Okuku Spinoza",
     designation: "Executive Director",
-    experience: "Age Link",
+
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "linkedIn",
+        path: "https://www.linkedin.com/in/okuku-patience-spinoza/",
+        icon: <FaLinkedin />,
       },
     ],
   },
   {
     id: 2,
-    imgSrc: Staff2,
+    imgSrc: Staff3,
     altText: "Prisha Vaidya",
     title: "Prisha Vaidya",
     designation: "Development Manager",
-    experience: "Age Link",
+
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/prisha-vaidya-b57a9821a/",
+        icon: <FaLinkedin />,
       },
     ],
   },
   {
     id: 3,
-    imgSrc: Staff3,
-    altText: "Soumyaa Veerakumar",
-    title: "Soumyaa Veerakumar",
-    designation: "Development Manager-",
-    experience: "Age Link",
-    socialProfile: [
-      {
-        id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
-      },
-    ],
+    imgSrc: Staff2,
+    altText: "Soumyaa Subramanium",
+    title: "Soumyaa Subramanium",
+    designation: "Development Manager",
+
+    socialProfile: [],
   },
   {
     id: 4,
@@ -102,40 +58,32 @@ const data = [
     altText: "Mohana Rambe",
     title: "Mohana Rambe",
     designation: "Programs Director",
-    experience: "Age Link",
+
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "linkedIn",
+        path: "https://www.linkedin.com/in/mohana-rambe-302b16180/",
+        icon: <FaLinkedin />,
       },
     ],
   },
-  
+  {
+    id: 5,
+    imgSrc: Staff5,
+    altText: "Jai Kasi Viswanathan ",
+    title: "Jai Kasi Viswanathan ",
+    designation: "Finance Director",
+
+    socialProfile: [],
+  },
 ];
 
 export default function TeamSectionStaff() {
   return (
     <section>
       <Container>
-        <SectionHeader 
-          slogan="Our Team"
-          title="The most qualified and talented individuals"
-          
-        />
+        <SectionHeader slogan="Our Staff" />
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <TeamCard
@@ -144,7 +92,7 @@ export default function TeamSectionStaff() {
               altText={item.altText}
               title={item.title}
               designation={item.designation}
-              experience = {item.experience}
+              experience={item.experience}
               social={item.socialProfile}
             />
           ))}

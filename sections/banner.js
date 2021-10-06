@@ -11,10 +11,13 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          We Grow Together
+            We Grow Together
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Through its mission statement, ‘We Grow Together’, Age-Link Society tackles the prevailing loneliness faced by students and elders by inculcating a sense of unity by bridging the age gap in order to build a healthier community together
+            Through its mission statement, ‘We Grow Together’, Age-Link Society
+            tackles the prevailing loneliness faced by students and elders by
+            inculcating a sense of unity by bridging the age gap in order to
+            build a healthier community together
           </Text>
           <Button variant="primaty" sx={{ cursor: "pointer" }}>
             {" "}

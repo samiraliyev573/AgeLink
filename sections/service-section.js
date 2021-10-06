@@ -7,10 +7,9 @@ import shapePattern from "assets/shape-pattern1.png";
 import ServiceThumb from "assets/service-thumb.jpg";
 
 const data = {
-  subTitle: "What is in it for you",
-  title: "Part of something great",
+  title: "Be a Part of something great",
   description:
-    "You will be part of an impactful journey to address the concern of the growing social isolation faced by seniors and students who are away from their elders.  You will be one of the first few members to have ignited this impactful journey by being a part of the pilot project at your esteemed university.   ",
+    "Being a part of Age-Link is to be a part of an impactful journey to address the concern of the growing social isolation faced by seniors and students. You will be one of the first few members to have ignited this impactful journey by being a part of the pilot project at your esteemed university. ",
 };
 
 export default function ServiceSection() {

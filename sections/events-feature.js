@@ -6,25 +6,20 @@ import EventImage from "assets/event-image.jpg";
 import shapePattern from "assets/shape-pattern2.png";
 
 const data = {
-  subTitle: "EVENTS HELD IN THE PAST  ",
-  title: "Gala nights, Chat and chill and Online",
+  title: "Events Held in the Past",
   description:
-    "Age-Link student association has held several heart warming events in the past for its members. The organization will continue to offer such networking events. Due to the existing COVID-19 pandemic, a majority of the events will be offered online to account for the various restrictions that are put in place by the government. Once the restrictions relax, the organization will transition back to offering in-person events in compliance with the respective university and seniors society’s COVID-19 rules. These networking events will expand to incorporate potential summer camp packages for seniors and students.",
-  btnName: "Get Started",
-  btnURL: "#",
+    "Age-Link student club at UBCO has held several heart warming events in the past for its members. These events include Gala nights, Chat and Chill events, theme-based speakers series and games night fundraisers. The organization will continue to offer such networking events. Due to the existing COVID-19 pandemic, a majority of the events will be offered online to account for the various restrictions that are put in place by the government. Once the restrictions relax, the organization will transition back to offering in-person events in compliance with the respective university and seniors society’s COVID-19 rules. These networking events will expand to incorporate potential summer camp packages for seniors and students.",
 };
 
 export default function EventsFeature() {
   return (
-    <section id = "events" sx={{ variant: "section.coreFeature" }}>
+    <section id="events" sx={{ variant: "section.coreFeature" }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.contentBox}>
           <TextFeature
             subTitle={data.subTitle}
             title={data.title}
             description={data.description}
-            btnName={data.btnName}
-            btnURL={data.btnURL}
           />
         </Box>
         <Box sx={styles.thumbnail}>

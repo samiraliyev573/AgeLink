@@ -1,9 +1,13 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui";
-import { Container, Grid } from "theme-ui";
+import { jsx, Container, Grid } from "theme-ui";
 import SectionHeader from "components/section-header";
 import TeamCard from "components/team-card";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+} from "react-icons/fa";
 
 import Member1 from "assets/team/member-1.jpg";
 import Member2 from "assets/team/member-2.jpg";
@@ -20,28 +24,16 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: "Ron Velzeboer",
-    title: "Ron Velzeboer",
+    altText: "Rob Velzeboer",
+    title: "Rob Velzeboer",
     designation: "Tranq Sleep Care / Madkatz Boxing Club",
     experience: "Clinical Research Assistant / Boxing coach",
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/rob-velzeboer-abb61659/",
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -52,26 +44,7 @@ const data = [
     title: "Ali Murtaza Kermali",
     designation: "Green Rays Farms",
     experience: "Assistant Engineer and Agronomist on site, Founder and CEO",
-    socialProfile: [
-      {
-        id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
-      },
-    ],
+    socialProfile: [],
   },
   {
     id: 3,
@@ -83,21 +56,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "linkedin",
+        path: "https://www.linkedin.com/in/chelseabigsot/",
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -111,21 +72,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/eric-li-238ab945/",
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -139,20 +88,15 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/hannah-linnea-84abba1b9/",
+        icon: <FaLinkedin />,
       },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
+
       {
         id: 3,
         name: "instagram",
-        path: "#",
+        path: "https://instagram.com/imhannahlinnea?utm_medium=copy_link",
         icon: <FaInstagram />,
       },
     ],
@@ -164,26 +108,7 @@ const data = [
     title: "Janice Gatenby",
     designation: "Retired nurse",
     experience: "ESL Instructor",
-    socialProfile: [
-      {
-        id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
-      },
-    ],
+    socialProfile: [],
   },
   {
     id: 7,
@@ -195,21 +120,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "linkedIn",
+        path: "https://www.linkedin.com/in/onyango-joseph-joel-31716114b/",
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -223,21 +136,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/shree-nithi-santhagunam-447493157/",
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -246,26 +147,14 @@ const data = [
     imgSrc: Member9,
     altText: "Daniel Kandie",
     title: "Daniel Kandie",
-    designation: "University of oxford",
+    designation: "University of Oxford",
     experience: "M.Sc Student",
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/daniel-kandie-336857128/",
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -279,21 +168,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
+        name: "linkedIn",
+        path: "https://www.linkedin.com/in/ian-cull-960b8716/",
+        icon: <FaLinkedin />,
       },
     ],
   },
@@ -303,9 +180,9 @@ export default function TeamSection() {
   return (
     <section id="team">
       <Container>
-        <SectionHeader 
+        <SectionHeader
           slogan="Board of Directors"
-         // title="The most qualified and talented individuals"
+          // title="The most qualified and talented individuals"
           title=""
         />
         <Grid sx={styles.grid}>
@@ -316,7 +193,7 @@ export default function TeamSection() {
               altText={item.altText}
               title={item.title}
               designation={item.designation}
-              experience = {item.experience}
+              experience={item.experience}
               social={item.socialProfile}
             />
           ))}
