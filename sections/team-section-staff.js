@@ -27,56 +27,7 @@ const data = [
       },
     ],
   },
-  {
-    id: 2,
-    imgSrc: Staff3,
-    altText: "Prisha Vaidya",
-    title: "Prisha Vaidya",
-    designation: "Development Manager",
 
-    socialProfile: [
-      {
-        id: 1,
-        name: "LinkedIn",
-        path: "https://www.linkedin.com/in/prisha-vaidya-b57a9821a/",
-        icon: <FaLinkedin />,
-      },
-    ],
-  },
-  {
-    id: 3,
-    imgSrc: Staff2,
-    altText: "Soumyaa Subramanium",
-    title: "Soumyaa Subramanium",
-    designation: "Development Manager",
-
-    socialProfile: [],
-  },
-  {
-    id: 4,
-    imgSrc: Staff4,
-    altText: "Mohana Rambe",
-    title: "Mohana Rambe",
-    designation: "Programs Director",
-
-    socialProfile: [
-      {
-        id: 1,
-        name: "linkedIn",
-        path: "https://www.linkedin.com/in/mohana-rambe-302b16180/",
-        icon: <FaLinkedin />,
-      },
-    ],
-  },
-  {
-    id: 5,
-    imgSrc: Staff5,
-    altText: "Jai Kasi Viswanathan ",
-    title: "Jai Kasi Viswanathan ",
-    designation: "Finance Director",
-
-    socialProfile: [],
-  },
 ];
 
 export default function TeamSectionStaff() {
