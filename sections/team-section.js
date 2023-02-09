@@ -11,14 +11,11 @@ import {
 
 import Member1 from "assets/team/member-1.jpg";
 import Member2 from "assets/team/member-2.jpg";
-import Member3 from "assets/team/member-3.jpeg";
 import Member4 from "assets/team/member-4.jpg";
 import Member5 from "assets/team/member-5.jpeg";
-import Member6 from "assets/team/member-6.jpg";
 import Member7 from "assets/team/member-7.jpg";
-import Member8 from "assets/team/member-8.jpg";
 import Member9 from "assets/team/member-9.jpg";
-import Member10 from "assets/team/member-10.jpg";
+import Member11 from "assets/team/member-11.png";
 
 const data = [
   {
@@ -46,24 +43,9 @@ const data = [
     experience: "Assistant Engineer and Agronomist on site, Founder and CEO",
     socialProfile: [],
   },
+  
   {
     id: 3,
-    imgSrc: Member3,
-    altText: "Chelsea Bigsot",
-    title: "Chelsea Bigsot",
-    designation: "Interior Health/Travel Medicine and Vaccination Centre",
-    experience: "Registered Nurse",
-    socialProfile: [
-      {
-        id: 1,
-        name: "linkedin",
-        path: "https://www.linkedin.com/in/chelseabigsot/",
-        icon: <FaLinkedin />,
-      },
-    ],
-  },
-  {
-    id: 4,
     imgSrc: Member4,
     altText: "Eric li",
     title: "Eric li",
@@ -79,7 +61,7 @@ const data = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     imgSrc: Member5,
     altText: "Hannah Linnea Wilkinson",
     title: "Hannah Linnea Wilkinson",
@@ -101,17 +83,9 @@ const data = [
       },
     ],
   },
+  
   {
-    id: 6,
-    imgSrc: Member6,
-    altText: "Janice Gatenby",
-    title: "Janice Gatenby",
-    designation: "Retired nurse",
-    experience: "ESL Instructor",
-    socialProfile: [],
-  },
-  {
-    id: 7,
+    id: 5,
     imgSrc: Member7,
     altText: "Joseph Joel Onyango",
     title: "Joseph Joel Onyango",
@@ -126,24 +100,9 @@ const data = [
       },
     ],
   },
+  
   {
-    id: 8,
-    imgSrc: Member8,
-    altText: "Shree Nithi Santhagunam",
-    title: "Shree Nithi Santhagunam",
-    designation: "Strawhouse.Inc",
-    experience: "Digital Marketing Coordinator",
-    socialProfile: [
-      {
-        id: 1,
-        name: "LinkedIn",
-        path: "https://www.linkedin.com/in/shree-nithi-santhagunam-447493157/",
-        icon: <FaLinkedin />,
-      },
-    ],
-  },
-  {
-    id: 9,
+    id: 6,
     imgSrc: Member9,
     altText: "Daniel Kandie",
     title: "Daniel Kandie",
@@ -159,21 +118,21 @@ const data = [
     ],
   },
   {
-    id: 10,
-    imgSrc: Member10,
-    altText: "Ian Cull",
-    title: "Ian Cull",
-    designation: "University of British Columbia",
-    experience: "Ex Deputy Vice Chancellor",
+    id: 7,
+    imgSrc: Member11,
+    altText: "Shiven Vinod Khera",
+    title: "Shiven Vinod Khera",
+    designation: "Entrepreneur",
     socialProfile: [
       {
         id: 1,
-        name: "linkedIn",
-        path: "https://www.linkedin.com/in/ian-cull-960b8716/",
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/shiven-vinod-khera-a05149120",
         icon: <FaLinkedin />,
       },
     ],
   },
+  
 ];
 
 export default function TeamSection() {
