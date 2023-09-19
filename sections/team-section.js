@@ -18,24 +18,9 @@ import Member9 from "assets/team/member-9.jpg";
 import Member11 from "assets/team/member-11.png";
 
 const data = [
+  
   {
     id: 1,
-    imgSrc: Member1,
-    altText: "Rob Velzeboer",
-    title: "Rob Velzeboer",
-    designation: "Tranq Sleep Care / Madkatz Boxing Club",
-    experience: "Clinical Research Assistant / Boxing coach",
-    socialProfile: [
-      {
-        id: 1,
-        name: "LinkedIn",
-        path: "https://www.linkedin.com/in/rob-velzeboer-abb61659/",
-        icon: <FaLinkedin />,
-      },
-    ],
-  },
-  {
-    id: 2,
     imgSrc: Member2,
     altText: "Ali Murtaza Kermali",
     title: "Ali Murtaza Kermali",
@@ -45,7 +30,7 @@ const data = [
   },
   
   {
-    id: 3,
+    id: 2,
     imgSrc: Member4,
     altText: "Eric li",
     title: "Eric li",
@@ -61,7 +46,7 @@ const data = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     imgSrc: Member5,
     altText: "Hannah Linnea Wilkinson",
     title: "Hannah Linnea Wilkinson",
@@ -85,7 +70,7 @@ const data = [
   },
   
   {
-    id: 5,
+    id: 4,
     imgSrc: Member7,
     altText: "Joseph Joel Onyango",
     title: "Joseph Joel Onyango",
@@ -102,7 +87,7 @@ const data = [
   },
   
   {
-    id: 6,
+    id: 5,
     imgSrc: Member9,
     altText: "Daniel Kandie",
     title: "Daniel Kandie",
@@ -118,7 +103,7 @@ const data = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     imgSrc: Member11,
     altText: "Shiven Vinod Khera",
     title: "Shiven Vinod Khera",
